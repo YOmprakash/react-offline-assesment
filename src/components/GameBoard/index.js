@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+
 import SuccessView from "../SuccessView";
 import "./index.css";
 

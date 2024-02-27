@@ -1,7 +1,7 @@
 // App.js component
 import React, { useState, useEffect } from "react";
 import GameBoard from "./components/GameBoard";
-import SuccessView from "./components/SuccessView";
+
 import UserName from "./components/UserName";
 
 const cardList = [
@@ -131,7 +131,7 @@ const App = () => {
 
       resetSelect();
     }
-  }, [choiseOne, choiseTwo]);
+  }, [choiseOne, choiseTwo,cards]);
 
   console.log(cards);
   return (
