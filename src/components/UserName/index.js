@@ -21,7 +21,7 @@ const UserName = ({ onSubmit }) => {
     <div className="user-name-container">
       <h1>Matching Game</h1>
       <form onSubmit={handleSubmit}>
-        <h1>Enter your name</h1>
+        <h2>Enter your name</h2>
         <input
           type="text"
           id="name"

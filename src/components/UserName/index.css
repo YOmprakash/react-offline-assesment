@@ -14,7 +14,10 @@
     font-family: Arial, sans-serif;
   }
   .user-name-container h1 {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 32px;
   }
   
   form {
@@ -30,7 +33,12 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
+  form h2{
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+  }
   form input {
     height: 40px;
     width: 100%;
@@ -42,6 +50,9 @@
   
   form button {
     height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    align-self: center;
     padding: 10px 20px;
     cursor: pointer;
     border: none;
